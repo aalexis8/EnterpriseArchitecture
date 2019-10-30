@@ -3,6 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ArchClean.Domain", "ArchClean.Domain", "{9D1A1B4E-FBB3-4705-9B3B-01EAAF6AA01D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ArchClean.Application", "ArchClean.Application", "{B9FDB0A1-E9EB-4647-815A-59F2F0FB8F49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ArchClean.Infra.IoC", "ArchClean.Infra.IoC", "{F0B19134-3CE9-42CF-90D9-05AD53177B58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ArchClean.Infra.Data", "ArchClean.Infra.Data", "{1DFB2615-DD6F-4555-9864-9DD20751BBF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ArchClean.UI.Mvc", "ArchClean.UI.Mvc", "{8DCBABCC-5903-4D17-A9F2-F1317DC79A34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ArchClean.Web.Api", "ArchClean.Web.Api", "{E90A24A6-50E0-42C0-A724-6FF1CE455E6B}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
