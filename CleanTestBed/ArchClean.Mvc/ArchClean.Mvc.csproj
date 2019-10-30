@@ -5,6 +5,11 @@
     <UserSecretsId>aspnet-ArchClean.Mvc-276506F9-46DD-4601-9B19-69DD38DF24EE</UserSecretsId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Data\Migrations\20191030195543_Initial Migration.cs" />
+    <Compile Remove="Data\Migrations\20191030195543_Initial Migration.Designer.cs" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.0.0" />
